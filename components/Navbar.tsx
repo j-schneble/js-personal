@@ -2,6 +2,7 @@ import { useEffect, useState, FunctionComponent } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
+
 const NavItem: FunctionComponent<{
     active: string
     setActive: Function
@@ -30,29 +31,29 @@ const Navbar = () => {
     
 
     useEffect(() => {
-        if (pathname === '/') setActive('About')
+        if (pathname === '/') setActive('Main')
         else if (pathname === '/projects') setActive('Projects')
-        else if (pathname === '/resume') setActive('Resume')
+        else if (pathname === '/skills') setActive('Skills')
      }, [])
 
      return (
         <div className='flex items-center justify-between px-5 py-3 my-3'>
-           <span className='text-xl border-b-4 border-opacity-50 border-stone2 font-encode text-stone3 md:text-2xl'>
+           <span className='text-xl font-thin text-white border-b-2 border-lightestslate md:text-2xl'>
               {active}
            </span>
   
-           <div className='text-base font-normal font-encode text-neutral md:text-xl'>
+           <div className='text-thin text-green '>
               <NavItem
                  active={active}
                  setActive={setActive}
-                 name='About'
+                 name='Main'
                  route='/'
               />
               <NavItem
                  active={active}
                  setActive={setActive}
-                 name='Resume'
-                 route='/resume'
+                 name='Skills'
+                 route='/skills'
               />
               <NavItem
                  active={active}

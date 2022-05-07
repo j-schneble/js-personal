@@ -11,7 +11,7 @@ class MyDocument extends Document {
 
 
         </Head>
-        <body className="bg-gradient-to-r from-black to-zinc">
+        <body className="bg-zinc">
           <Main />
           <NextScript />
         </body>
