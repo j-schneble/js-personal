@@ -6,7 +6,7 @@ Still need to :
 
 - Finish skills page and showcase/projects page 
 - UI button to switch to lighter mode 
-- add Framer Motion 
-- add more styles 
+- Add Framer Motion 
+- Add more styles 
 - Add logo loading page with Framer Motion 
 - Add the logo into top corner and be a home button ?
