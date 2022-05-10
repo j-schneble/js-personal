@@ -9,3 +9,4 @@ Still need to :
 - add Framer Motion 
 - add more styles 
 - Add logo loading page with Framer Motion 
+- Add the logo into top corner and be a home button ?
