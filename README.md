@@ -8,3 +8,4 @@ Still need to :
 - UI button to switch to lighter mode 
 - add Framer Motion 
 - add more styles 
+- Add logo loading page with Framer Motion 
