@@ -10,3 +10,4 @@ Still need to :
 - Add more styles 
 - Add logo loading page with Framer Motion 
 - Add the logo into top corner and be a home button ?
+- Lighter Mode will have gradient color buttons and sections with a white or light black base
