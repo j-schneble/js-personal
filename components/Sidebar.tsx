@@ -34,7 +34,7 @@ const Sidebar = () => {
             <a href="">
                 <BsFillPersonLinesFill className='border-2 border-black border-opacity-75 rounded-md cursor-pointer w-9 h-9' style={{color: "white"}} />
             </a>
-            <a href="">
+            <a href="https://github.com/j-schneble">
                 <BsGithub className='border-2 border-black rounded-full cursor-pointer w-9 h-9' style={{color: "white"}} />
             </a>
             

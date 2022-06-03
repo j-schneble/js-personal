@@ -20,8 +20,7 @@ const index = () => {
  
       <div
         className="flex-grow p-2 mt-4 border-2 border-opacity-50 border-zinclight bg-zincc "
-        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
-      >
+        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}>
         
      <div className='py-2 my-1 text-center ' >
 

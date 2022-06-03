@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+  purge: ["./pages/**/*.js", "./components/**/*.js"],
   darkMode: "class",
   theme: {
     fontFamily: {
@@ -20,8 +20,6 @@ module.exports = {
           '0 45px 65px rgba(0, 0, 0, 0.15)'
       ]
     },
-    
-
     extend: {
       colors: {
         zinc: {
@@ -84,7 +82,6 @@ module.exports = {
         whiter:{
           DEFAULT: "#e6f1ff",
         },
-        
         zincdark: {
           DEFAULT: "#18181b",
         },
@@ -106,7 +103,9 @@ module.exports = {
         textwhite: {
           DEFAULT: "#e5e7eb",
         },
-        
+        sarah: {
+          DEFAULT: "#db2777",
+        },
         dark: {
           DEFAULT: "#010101",
           100: "#0a0b0e",

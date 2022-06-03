@@ -18,7 +18,7 @@ export const services:IService[] = [
    
     title: "Development",
     about:
-      "Constantly looking for a new way to understand and create, I am constantly working on new projects. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
+      "Constantly looking for a new way to understand and create, I am always working on new projects. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.",
   },
 ];
     
